@@ -1,0 +1,88 @@
+html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: auto;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+}
+#navbar {
+  height: auto;
+  width: 70%;
+  display: block;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(161,255,4,1) 0%, rgba(0,212,255,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+#SHOP {
+  font-size: 60px;
+color: darkred;
+}
+.item_info img {
+  border-style: solid;
+}
+#home{
+background-color: ghostwhite;
+size:50%;
+}
+#bod{
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+#tab{
+  height: auto;
+  width: 70%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(161,255,4,1) 0%, rgba(0,212,255,1) 100%);
+  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: inherit;
+  
+}
+
+#rev0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 52%;
+  margin-bottom: 10px;
+}
+
+#rev1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 52%;
+  margin-bottom: 10px;
+}
+
+#rev2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 52%;
+  margin-bottom: 10px;
+}
+
+#rev3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 52%;
+  margin-bottom: 10px;
+}
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: rgb(255, 255, 255);
+}

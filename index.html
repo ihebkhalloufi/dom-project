@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id= bod>
+    <a id="navbar"></a>
+    <center>
+        <h1><a id="SHOP">SHOP</a></h1>
+        <ul>
+          <h3><a id="WILLCOME">WELLCOME TO MY SHOP</a></h3>
+        </ul>
+    </center>
+    <center>
+    <div id="tab">
+      <h3><p>product name</p></h3>
+      <h3><p>price</p></h3>
+      <h3><p>quantity</p></h3>
+      <h3><p>remove product</p></h3>
+    </center>
+    <center>
+    </div>
+      <div id="navbar">
+
+      <div id="rev0">
+        <img src="asset/th.jfif" alt="" width="100px" height="100px" class="img"/>
+        <h3 class="prix">900</h3>
+        <button class="button-plus">+</button><p class="quantity"> 0 </p> <button class="button-moins">-</button>
+        <button onclick="myFunction0()">Remove </button>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+      </div>
+      <div id="rev1">
+        <img src="asset/th2.jfif" alt="" width="100px" height="100px" class="img" />
+        <h3 class="prix">800</h3>
+        <button class="button-plus">+</button><p class="quantity"> 0 </p> <button class="button-moins">-</button>
+        <button onclick="myFunction1()">Remove </button>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      </div>
+   
+      <div id="rev2">
+        <img src="asset/OIP.jfif" alt="" width="100px" height="100px" class="img"/>
+        <h3 class="prix">2000</h3>
+        <button class="button-plus">+</button><p class="quantity"> 0 </p> <button class="button-moins">-</button>
+        <button onclick="myFunction2()">Remove </button>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    </div>
+
+    <div id="rev3">
+        <img src="asset/OIP2.jfif" alt="" width="100px" height="100px" class="img" />
+        <h3 class="prix">1500</h3>
+        <button class="button-plus">+</button><p class="quantity"> 0 </p> <button class="button-moins">-</button>
+        <button onclick="myFunction3()">Remove </button>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    </div>
+  </center>
+  <div>
+    <center>
+       <h2 id="total"> total : <span id="toot"> 0</span></h2>
+
+    <button >repeat button</button>
+  </div>
+</center> 
+    <script src='./index.js'></script>
+  </body>
+</html>
